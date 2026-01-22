@@ -88,7 +88,7 @@ combined_year <- bind_rows(
     mutate(type = "Human cases")
 )
 
-#combined plot
+#combined plot Epizootias + Human Cases
 
 ggplot(combined_year, aes(x = year, y = value, color = type)) +
   geom_line(linewidth = 1.1) +
@@ -109,10 +109,15 @@ ggplot(combined_year, aes(x = year, y = value, color = type)) +
   theme_minimal(base_size = 12) +
   theme(
     legend.position = "top",
-    plot.title = element_text(face = "bold")
+    plot.title = element_text(face = "bold"),
+    annotate("rect",
+         xmin = 2016, xmax = 2019,
+         ymin = -Inf, ymax = Inf,
+         alpha = 0.1)
   )
 
-# Optional: make region codes consistent + readable
+#Region Plot 
+# Make region codes consistent + readable
 region_labels <- c(
   "N"  = "North",
   "NE" = "Northeast",
@@ -163,4 +168,5 @@ ggplot(combined_region_year, aes(x = year, y = value, color = type)) +
   theme(
     legend.position = "top",
     plot.title = element_text(face = "bold")
+    
   )
