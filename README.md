@@ -1,2 +1,3 @@
 # yellow-fever-brazil
 Exploratory analysis of yellow fever surveillance data in Brazil (1994–2025), including human cases and non-human primate epizootics.
+Temporal alignment between non-human primate epizootic events and human yellow fever cases was most evident during major outbreak periods and varied substantially by macro-region. In the Southeast, epizootic peaks closely coincided with large increases in human cases, whereas in other regions epizootic activity was often observed without corresponding human transmission. These findings highlight the context-dependent role of primate surveillance as an early warning signal.
