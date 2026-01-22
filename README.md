@@ -7,7 +7,8 @@ cycles involving non-human primates. In Brazil, epizootic surveillance is a key
 component of early outbreak detection.
 
 ## Data
-Public surveillance data (1994–2025) were obtained from dados.gov.br and include:
+Public surveillance data (1994–2025) were obtained from Yellow fever surveillance data are available at [Febre Amarela – Casos Humanos e Epizootias](https://dados.gov.br/dados/conjuntos-dados/febre-amarela-em-humanos-e-primatas-no-humanos---1994-a-2021).
+ and include:
 - Human yellow fever cases
 - Non-human primate epizootic events
 
